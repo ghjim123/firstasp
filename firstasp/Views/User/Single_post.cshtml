@@ -1,0 +1,36 @@
+﻿@using firstasp.Models;
+@inject PrjDbContext _context;
+
+<main id="main">
+
+    <section class="single-post-content">
+        <div class="container" id="User">
+            <div class="row">
+                <div class="col-md-12 post-content" data-aos="fade-up">
+                    <div class="single-post">
+                        <div class="d-flex justify-content-between my-2">
+                            <div class="post-meta">
+                                <span class="date">發布者： @Model.UserId</span>
+                                <span class="mx-1">&bullet;</span>
+                                <span>@Model.ArticleDate</span>
+                            </div>
+                            <div>
+                                <a class="btn btn-primary align-items-end" href="~/User/Article_Editer?Categary=@Model.ArticleCategory&&title=@Model.ArticleTitle">編輯</a>
+                                <a class="btn btn-primary align-items-end" href="~/User/Article_Deleter?del_categary=@Model.ArticleCategory&&del_title=@Model.ArticleTitle&&del_photo=@Model.PhotoName">刪除</a>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <h1 class="mb-5">@Model.ArticleTitle</h1>
+                        </div>
+                        <figure class="my-4 col-12">
+                            <img class="img-fluid d-block px-lg-5" src="~/images/User/@Model.UserId/@Model.PhotoName" alt="@Model.ArticleTitle">
+                        </figure>
+                        <div class="col-12">
+                            <p>@Model.ArticleContent</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

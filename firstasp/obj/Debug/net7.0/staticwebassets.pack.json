@@ -1,0 +1,633 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\firstasp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\firstasp.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\css\\variables.css",
+      "PackagePath": "staticwebassets\\css\\variables.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\images\\User\\123\\0100e31e-c6d6-42b4-8213-e6e39d321f0e.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\123\\0100e31e-c6d6-42b4-8213-e6e39d321f0e.jpg"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\images\\User\\123\\1e35905c-a889-4224-b2d9-116a390a0d6b.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\123\\1e35905c-a889-4224-b2d9-116a390a0d6b.jpg"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\images\\User\\123\\6af69a76-b620-44b6-b7d0-9c0d33c3e78c.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\123\\6af69a76-b620-44b6-b7d0-9c0d33c3e78c.jpg"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\images\\User\\123\\77e43916-ae34-4d70-bbe6-9d0c2f9b216d.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\123\\77e43916-ae34-4d70-bbe6-9d0c2f9b216d.jpg"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\images\\User\\123\\8fa6778a-f9b8-40ec-8334-06ae6f289cde.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\123\\8fa6778a-f9b8-40ec-8334-06ae6f289cde.jpg"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\images\\User\\123\\b4632787-2581-4f88-bb57-9c7841453d45.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\123\\b4632787-2581-4f88-bb57-9c7841453d45.jpg"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\images\\User\\123\\d1a9663f-4adc-4810-a6ed-0c4aa7ca97a8.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\123\\d1a9663f-4adc-4810-a6ed-0c4aa7ca97a8.jpg"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\images\\User\\123\\d46cfb8d-331c-460f-b217-9b47f2678652.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\123\\d46cfb8d-331c-460f-b217-9b47f2678652.jpg"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\images\\User\\123\\ea8c45cc-95e2-4bf3-add8-ee40b6b7fef5.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\123\\ea8c45cc-95e2-4bf3-add8-ee40b6b7fef5.jpg"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\images\\User\\123\\ec24bac8-326d-42a9-94be-081d4b2f6f76.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\123\\ec24bac8-326d-42a9-94be-081d4b2f6f76.jpg"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\images\\User\\123\\ee93bddb-ec78-4a86-8c8e-3f33cf7b19e1.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\123\\ee93bddb-ec78-4a86-8c8e-3f33cf7b19e1.jpg"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\images\\User\\345\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\345\\1.jpg"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\images\\User\\345\\7d33f607-672f-42c5-b5c7-1cd1c6559e79.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\345\\7d33f607-672f-42c5-b5c7-1cd1c6559e79.jpg"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\images\\User\\345\\8efe13ca-abb8-461c-ad0d-814b78c34c95.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\345\\8efe13ca-abb8-461c-ad0d-814b78c34c95.jpg"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\images\\User\\345\\a8b9bbd6-36aa-4379-9bed-d5002dde9b26.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\345\\a8b9bbd6-36aa-4379-9bed-d5002dde9b26.jpg"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\images\\User\\345\\b69b61a0-6984-11ee-bc6f-c1618bee8bcb.jpg",
+      "PackagePath": "staticwebassets\\images\\User\\345\\b69b61a0-6984-11ee-bc6f-c1618bee8bcb.jpg"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\images\\post-landscape-6.jpg.txt",
+      "PackagePath": "staticwebassets\\images\\post-landscape-6.jpg.txt"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\images\\post-slide-1.jpg",
+      "PackagePath": "staticwebassets\\images\\post-slide-1.jpg"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\images\\post-slide-2.jpg",
+      "PackagePath": "staticwebassets\\images\\post-slide-2.jpg"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\images\\post-slide-3.jpg",
+      "PackagePath": "staticwebassets\\images\\post-slide-3.jpg"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\images\\post-slide-4.jpg",
+      "PackagePath": "staticwebassets\\images\\post-slide-4.jpg"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\images\\post-slide-5.jpg",
+      "PackagePath": "staticwebassets\\images\\post-slide-5.jpg"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\images\\post-slide-6.jpg",
+      "PackagePath": "staticwebassets\\images\\post-slide-6.jpg"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\aos\\aos.cjs.js",
+      "PackagePath": "staticwebassets\\lib\\vendor\\aos\\aos.cjs.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\aos\\aos.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\aos\\aos.esm.js",
+      "PackagePath": "staticwebassets\\lib\\vendor\\aos\\aos.esm.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\lib\\vendor\\aos\\aos.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\aos\\aos.js.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\aos\\aos.js.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\glightbox\\css\\plyr.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\glightbox\\css\\plyr.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\glightbox\\css\\plyr.min.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\glightbox\\css\\plyr.min.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\lib\\vendor\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\lib\\vendor\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\lib\\vendor\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\vendor\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "E:\\backend\\sideproj\\firstasp\\wwwroot\\lib\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.firstasp.props",
+      "PackagePath": "build\\firstasp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.firstasp.props",
+      "PackagePath": "buildMultiTargeting\\firstasp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.firstasp.props",
+      "PackagePath": "buildTransitive\\firstasp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.firstasp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

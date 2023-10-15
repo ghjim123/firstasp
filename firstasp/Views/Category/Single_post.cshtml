@@ -1,0 +1,115 @@
+﻿@using firstasp.Models;
+@inject PrjDbContext _context;
+
+<main id="main">
+
+    <section class="single-post-content">
+        <div class="container" id="@Model.ArticleCategory">
+            <div class="row">
+
+                <div class="col-md-9 post-content" data-aos="fade-up">
+                    <div class="single-post">
+                        <div class="d-flex justify-content-between my-2">
+                            <div class="post-meta">
+                                <span class="date">發布者： @Model.UserId</span>
+                                <span class="mx-1">&bullet;</span>
+                                <span>@Model.ArticleDate</span>
+                            </div>
+                            @if (ViewBag.edit)
+                            {
+                                <div>
+                                    <a class="btn btn-primary align-items-end" href="~/Category/Editer?Categary=@Model.ArticleCategory&&title=@Model.ArticleTitle">編輯</a>
+                                    <a class="btn btn-primary align-items-end" href="~/Category/Deleter?del_categary=@Model.ArticleCategory&&del_title=@Model.ArticleTitle&&del_photo=@Model.PhotoName">刪除</a>
+                                </div>
+                            }
+                        </div>
+                        <div class="col-12">
+                            <h1 class="mb-5">@Model.ArticleTitle</h1>
+                        </div>
+                        <figure class="my-4 col-12">
+                            <img class="img-fluid d-block px-md-5" src="~/images/User/@Model.UserId/@Model.PhotoName" alt="@Model.ArticleTitle">
+                        </figure>
+                        <div class="col-12">
+                            <p>@Model.ArticleContent</p>
+                        </div>
+                    </div>
+                    <div class="comments">
+                        <h5 class="comment-title py-4">2 Comments</h5>
+                        <div class="comment d-flex mb-4">
+                            <div class="flex-grow-1 ms-2 ms-sm-3">
+                                <div class="comment-meta d-flex align-items-baseline">
+                                    <h6 class="me-2">Jordan Singer</h6>
+                                    <span class="text-muted">2d</span>
+                                </div>
+                                <div class="comment-body">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non minima ipsum at amet doloremque qui magni, placeat deserunt pariatur itaque laudantium impedit aliquam eligendi repellendus excepturi quibusdam nobis esse accusantium.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment d-flex">
+                            <div class="flex-shrink-1 ms-2 ms-sm-3">
+                                <div class="comment-meta d-flex">
+                                    <h6 class="me-2">Santiago Roberts</h6>
+                                    <span class="text-muted">4d</span>
+                                </div>
+                                <div class="comment-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto laborum in corrupti dolorum, quas delectus nobis porro accusantium molestias sequi.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    @{
+                        string user_name = User.Identity.Name;
+                        if(user_name != null){
+                            <div class="row justify-content-center mt-5">
+
+                                <div class="col-lg-12">
+                                    <h5 class="comment-title">留言</h5>
+                                    <div class="row">
+                                        <div class="col-12 mb-3">
+                                            <label for="comment-message">Message</label>
+
+                                            <textarea class="form-control" id="comment-message" placeholder="Enter your name" cols="30" rows="10"></textarea>
+                                        </div>
+                                        <div class="col-12">
+                                            <input type="reset" class="btn btn-primary" value="重新填入">
+                                            <input type="submit" class="btn btn-primary" value="送出評論">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+
+                <div class="col-md-3">
+                    <div class="aside-block">
+                        <div class="tab-content" id="pills-tabContent">
+
+                            <div class="tab-pane fade show active" id="pills-latest" role="tabpanel" aria-labelledby="pills-latest-tab">
+                                @{
+                                    string cate = Model.ArticleCategory;
+                                    var aside_blocks = _context.ArticleTables.Where(m => m.ArticleCategory == cate).OrderByDescending(d => d.ArticleDate).Take(10).ToList();
+                                    foreach (var aside_block in aside_blocks)
+                                    {
+                                        <div class="post-entry-1 border-bottom">
+                                            <div class="post-meta">
+                                                <span class="date">發布者： @aside_block.UserId</span> <span class="mx-1">&bullet;</span> <span>@aside_block.ArticleDate</span>
+                                            </div>
+                                            <h2 class="mb-2"><a href="~/category/Single_post?poster=@aside_block.UserId&&title=@aside_block.ArticleTitle&&category=@aside_block.ArticleCategory">@aside_block.ArticleTitle</a></h2>
+                                        </div>
+
+                                    }
+                                }
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>

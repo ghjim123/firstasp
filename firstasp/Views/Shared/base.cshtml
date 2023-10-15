@@ -1,0 +1,135 @@
+﻿@using firstasp.Models;
+@inject PrjDbContext _context;
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>ZenBlog</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <link href="~/images/logo.png" rel="icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link href="~/lib/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/lib/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/lib/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="~/lib/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="~/lib/vendor/aos/aos.css" rel="stylesheet">
+
+    <link href="~/css/variables.css" rel="stylesheet">
+    <link href="~/css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header id="header" class="header d-flex align-items-center fixed-top">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+            <a href="~/Home" class="logo d-flex align-items-center">
+                <img src="~/images/logo.png" alt="">
+                <h1>ZenBlog</h1>
+            </a>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    @{
+                        var categories = _context.CategoryTables.ToList();
+                        foreach (var item in categories)
+                        {
+                            <li><a href="~/Category?key=@item.ArticleCategory" id="nav_items_@item.ArticleCategory">@item.ArticleCategory</a></li>
+                        }
+                    }
+                    @{
+                        string user_name = User.Identity.Name;
+                        if (User.Identity.Name == null)
+                        {
+                            <li><a href="~/User/Login" id="nav_items_Login">登入</a></li>
+                            <li><a href="~/User/Sign" id="nav_items_Sign">註冊</a></li>
+                        }
+                        else
+                        {
+                            <li class="dropdown">
+                                <a href="~/User/Article_list" id="nav_items_User"><span>@User.Identity.Name 你好!!</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                                <ul>
+                                    <li><a href="~/User/Article_list">文章列表</a></li>
+                                    <li><a href="~/User">留言紀錄</a></li>
+                                    <li><a href="~/User/Contact">聯絡客服</a></li>
+                                    <li><a href="~/User/Logout">登　　出</a></li>
+                                </ul>
+                            </li>
+                        }
+                    }
+                    @if (User.IsInRole("Manager") || User.IsInRole("Admin"))
+                    {
+                        <li class="dropdown">
+                            <a href="~/User/Article_list" id="nav_items_User"><span>@User.Identity.Name 管理者</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                            <ul>
+                                <li><a href="~/User/Article_list">文章管理</a></li>
+                                <li><a href="~/User">留言管理</a></li>
+                                <li><a href="~/User/Logout">登　　出</a></li>
+                            </ul>
+                        </li>
+
+                    }
+                </ul>
+            </nav>
+
+            <div class="position-relative">
+                <a href="#" class="mx-2 js-search-open"><span class="bi-search"></span></a>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+
+                <div class="search-form-wrap js-search-form-wrap">
+                    <form asp-controller="Category" asp-action="SearchList" class="search-form" method="get">
+                        <input type="text" placeholder="Search" class="form-control" name="search_key">
+                        <button class="btn"><span class="bi-search"></span></button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+    @RenderBody()
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <footer id="footer" class="footer">
+
+        <div class="footer-content">
+            <div class="container">
+
+                <div class="row justify-content-center">
+                    <div class="col-6 col-md-4 justify-content-center">
+                        <h3 class="footer-heading">本網站僅用於學術研究</h3>
+                    </div>
+                    <div class="col-6 col-md-4 justify-content-center">
+                        <h3 class="footer-heading">資料來源</h3>
+                        <ul class="footer-links list-unstyled">
+                            <li><a href="https://bootstrapmade.com/zenblog-bootstrap-blog-template/"><i class="bi bi-chevron-right"></i> ZenBlog</a></li>
+                            <li><a href="https://tw.news.yahoo.com/"><i class="bi bi-chevron-right"></i> yahoo 新聞</a></li>
+                            <li><a href="https://www.dcard.tw/f"><i class="bi bi-chevron-right"></i> Dcard</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="~/lib/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="~/lib/vendor/aos/aos.js"></script>
+    <script src="~/lib/vendor/php-email-form/validate.js"></script>
+
+    <script src="~/js/main.js"></script>
+
+</body>
+
+</html>

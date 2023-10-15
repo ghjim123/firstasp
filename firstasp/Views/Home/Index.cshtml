@@ -1,0 +1,70 @@
+﻿@using firstasp.Models;
+@inject PrjDbContext _context;
+
+<main id="main">
+      <section id="hero-slider" class="hero-slider">
+        <div class="container-md" data-aos="fade-in">
+          <div class="row">
+            <div class="col-12">
+              <div class="swiper sliderFeaturedPosts">
+                <div class="swiper-wrapper">
+                   @{
+                      var lastest_list = _context.ArticleTables.OrderByDescending(m=>m.ArticleDate).Take(5).ToList();
+                      foreach(var lastest in lastest_list)
+                          {
+                          <div class="swiper-slide">
+                             <a href="~/category/Single_post?poster=@lastest.UserId&&title=@lastest.ArticleTitle&&category=@lastest.ArticleCategory" class="img-bg d-flex align-items-end" style="background-image: url('../images/User/@lastest.UserId/@lastest.PhotoName');" alt="@lastest.ArticleTitle">
+                                <div class="img-bg-inner">
+                                   <h2>@lastest.ArticleTitle</h2>
+                                </div>
+                             </a>
+                          </div>                 
+                          }
+                    }
+                </div>
+                <div class="custom-swiper-button-next">
+                  <span class="bi-chevron-right"></span>
+                </div>
+                <div class="custom-swiper-button-prev">
+                  <span class="bi-chevron-left"></span>
+                </div>
+  
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <section id="posts" class="posts">
+        <div class="container" data-aos="fade-up">
+            @{
+                var cate_list = _context.CategoryTables.ToList();
+                foreach(var cate in cate_list)
+                {
+                    <div class="section-header d-flex justify-content-between align-items-center mb-5 my-5">
+                        <h2><a href="category?key=@cate.ArticleCategory">@cate.ArticleCategory</a></h2>
+                        <div><a href="category?key=@cate.ArticleCategory" class="more">See All</a></div>
+                    </div>
+                    @:<div class="row g-5">
+                    var arti_list = _context.ArticleTables.Where(m => m.ArticleCategory == cate.ArticleCategory).OrderByDescending(m => m.ArticleDate).Take(6).ToList();
+                    foreach(var article in arti_list)
+                    {
+                        <div class="col-lg-4 border-start custom-border">
+                            <div class="post-entry-1">
+                                <a href="~/category/Single_post?poster=@article.UserId&&title=@article.ArticleTitle&&category=@article.ArticleCategory">
+                                    <img src="~/images/User/@article.UserId/@article.PhotoName" alt="@article.ArticleTitle" class="img-fluid">
+                                </a>
+                                <div class="post-meta">
+                                    <span class="date">發布者： @article.UserId</span> <span class="mx-1">&bullet;</span> <span>@article.ArticleDate</span>
+                                </div>
+                                <h2><a href="~/category/Single_post?poster=@article.UserId&&title=@article.ArticleTitle&&category=@article.ArticleCategory">@article.ArticleTitle</a></h2>
+                            </div>
+                        </div>
+                    }
+                    @:</div>
+                }
+            }
+        </div>
+      </section>
+  </main>

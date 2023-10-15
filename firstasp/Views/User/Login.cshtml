@@ -1,0 +1,35 @@
+﻿
+<main id="main">
+
+    <section id="Login" class="Login">
+        <div class="container" id="Login">
+            <div class="col-md-12">
+                <div class="section-header d-flex justify-content-between align-items-center mb-5">
+                    <h2>登入</h2>
+                </div>
+                <div class="row justify-content-center mt-5">
+                    <div class="col-lg-4 " id="form_login">
+                        <div class="row">
+                            <form asp-action="Login" asp-controller="User" method="post">
+                                <div class="col-lg-12 mb-3">
+                                    <label for="login_id">帳號</label>
+                                    <input type="text" class="form-control" id="login_id" name="login_id" autofocus required>
+                                </div>
+                                <div class="col-lg-12 mb-3">
+                                    <label for="login_pw">密碼</label>
+                                    <input type="password" class="form-control" id="login_pw" name="login_pwd" required>
+                                </div>
+                                <div class="col-12">
+                                    <a href="~/User/Sign" id="backtosing" class="btn btn-primary">前往註冊</a>
+                                    <input type="submit" class="btn btn-primary" value="登入">
+                                    <p class="text-danger">@ViewBag.message</p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
